@@ -7,7 +7,7 @@ const Plans = ()=>{
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex justify-between items-center h-16">
         <img 
-          src="../public/logo_t.png" 
+          src="https://res.cloudinary.com/dxmu1ohyk/image/upload/f_auto,q_auto/v1/gym_web/tg5jgaqux1zezwel89ha" 
           className={`w-auto h-16 p-2 md:p-0.5`} 
           data-aos="fade-left"/>
         <NavLink 

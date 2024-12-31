@@ -8,7 +8,7 @@ const Gallery = ()=>{
         </div>
         <video
         className=" h-3/4  px-4 object-cover bg-gradient-to-l from-black via-transparent to-black"
-        src="../public/intro.mp4"
+        src="https://res.cloudinary.com/dxmu1ohyk/video/upload/f_auto:video,q_auto/v1/gym_web/jkzb7pbyxti3i2nqkzuq"
         autoPlay
         loop
         muted
