@@ -14,10 +14,7 @@ const FacilitiesCard = ({url,facility})=>{
   return(<>
     <div 
       data-aos="fade-up"
-      className=" rombo rombo-scroll 
-        enter-opacity-100 enter-translate-y-0 
-        exit-opacity-0 exit-translate-y-10 
-        transition-all duration-1000 relative w-11/12   h-80 rounded-2xl  bg-black">
+      className=" relative w-11/12   h-80 rounded-2xl  bg-black">
       <div 
         className="w-full h-full bg-cover bg-center bg-no-repeat shadow-md  opacity-40 rounded-2xl" 
         style={{backgroundImage:`url(${url})`, filter: 'brightness(0.7) contrast(1.2)'}}></div>
