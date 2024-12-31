@@ -5,7 +5,7 @@ const Home = ()=>{
     <div id="home" className="sticky top-0 left-0 w-full h-screen">
       <video
         className="absolute  top-0 left-0 w-full h-full object-cover  "
-        src="../public/intro.mp4"
+        src="https://res.cloudinary.com/dxmu1ohyk/video/upload/f_auto:video,q_auto/v1/gym_web/jkzb7pbyxti3i2nqkzuq"
         autoPlay
         loop
         muted
