@@ -20,7 +20,7 @@ const FacilitiesCard = ({url,facility})=>{
         transition-all duration-1000 relative w-11/12   h-80 rounded-2xl  bg-black">
       <div 
         className="w-full h-full bg-cover bg-center bg-no-repeat shadow-md  opacity-40 rounded-2xl" 
-        style={{backgroundImage:`url(../public/${url})`, filter: 'brightness(0.7) contrast(1.2)'}}></div>
+        style={{backgroundImage:`url(${url})`, filter: 'brightness(0.7) contrast(1.2)'}}></div>
         <div className="absolute inset-0 flex items-center justify-center text-center text-slate-200 font-righteous text-xl">{facility} <br/> AREA</div>
     </div>
   </>)
