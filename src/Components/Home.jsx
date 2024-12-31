@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import WhatsappBtn from "./WhatsappBtn";
 
 const Home = ()=>{
@@ -19,7 +20,7 @@ const Home = ()=>{
         <h1 className="text-4xl md:text-6xl font-righteous font-bold animate-bounce drop-shadow-lg">Welcome to Our Gym</h1>
         <p className="font-righteous mt-4 text-lg md:text-2xl">Achieve your fitness goals with us</p>
         <button className="mt-6 px-5 py-4 bg-red-600 hover:bg-red-700 rounded-sm shadow-lg text-white transform transition-transform hover:scale-105">
-          Join Now
+          <NavLink to="/plans">Join Now</NavLink>
         </button>
       </div>
     </div>

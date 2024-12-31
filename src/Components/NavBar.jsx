@@ -35,7 +35,7 @@ const NavBar = () =>{
     };
   }, [isOpen]);
   return(<>
-      <nav className={` fixed z-50  bg-transparent/80 top-0 w-full`}>
+      <nav className={` fixed z-50  bg-transparent/90 top-0 w-full`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <img 
@@ -90,35 +90,35 @@ const NavBar = () =>{
         </div>
       {isOpen && (
         <div className="sm:hidden ">
-          <div className=" flex flex-col justify-center items-center pt-2 pb-4 space-y-4">
+          <div className=" flex flex-col justify-center items-center pt-2 pb-4 space-y-4 font-righteous h-3/4">
             <NavLink 
               to="/home"  
               onClick={(e) => { scrollToSection('home');}}
-              className={({isActive})=>` ${isActive && window.location.pathname==='/home'  ?"text-red-500":"text-white"} block hover:text-red-500`}>
+              className={({isActive})=>` ${isActive && window.location.pathname==='/home'  ?"text-red-500 animate-bounce":"text-white"} block  hover:text-red-500`}>
               Home
             </NavLink>
             <NavLink 
               to="/about" 
               onClick={() => scrollToSection('about')}
-              className={({isActive})=>` ${isActive && window.location.pathname==='/about'  ?"text-red-500":"text-white"} block hover:text-red-500 hover:underline`}>
+              className={({isActive})=>` ${isActive && window.location.pathname==='/about'  ?"text-red-500 animate-bounce":"text-white"} block hover:text-red-500 hover:underline`}>
               About
             </NavLink>
             <NavLink 
               to="/facilities" 
               onClick={() => scrollToSection('facilities')}
-              className={({isActive})=>` ${isActive && window.location.pathname==='/facilities'?"text-red-500":"text-white"} block hover:text-red-500`}>
+              className={({isActive})=>` ${isActive && window.location.pathname==='/facilities'?"text-red-500 animate-bounce":"text-white"} block hover:text-red-500`}>
               Facilities
             </NavLink>
             <NavLink 
               to="/gallery" 
               onClick={() => scrollToSection('gallery')}
-              className={({isActive})=>` ${isActive && window.location.pathname==='/gallery'?"text-red-500":"text-white"} block hover:text-red-500`}>
+              className={({isActive})=>` ${isActive && window.location.pathname==='/gallery'?"text-red-500 animate-bounce":"text-white"} block hover:text-red-500`}>
               Gallery
             </NavLink>
             <NavLink 
               to="/plans" 
-              className={({isActive})=>` ${isActive?"text-red-500":"text-white"} block hover:text-red-500`}>
-              Plans
+              className={({isActive})=>` ${isActive?"text-red-500":"text-green-500"} block hover:text-red-500`}>
+              Membership Plans
             </NavLink>
           </div>
         </div>

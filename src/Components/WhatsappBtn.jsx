@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'; 
 const WhatsappBtn = ()=>{
   return(<>
-    <div className="fixed bottom-4 right-4">
+    <div className="fixed z-10 bottom-4 right-4">
       <a
         href="https://wa.me/919219353574?text=Hi%20there!%20I%20need%20help%20with%20your%20services."
         target="_blank"
