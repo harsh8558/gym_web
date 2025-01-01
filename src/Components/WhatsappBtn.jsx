@@ -15,7 +15,7 @@ const WhatsappBtn = ()=>{
     </div>
     <div className="fixed z-10 bottom-4 left-4">
       <a
-        href="https://wa.me/919219353574?text=Hi%20there!%20I%20need%20help%20with%20your%20services."
+        href="https://www.instagram.com/energyfitnesslucknow?igsh=YXp6bTNpYjNjazFn"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center w-14 h-14 bg-gradient-to-br from-[#F58529] via-[#DD2A7B] to-[#515BD4] text-white  animate-bounce rounded-2xl shadow-lg "
