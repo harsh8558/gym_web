@@ -90,7 +90,7 @@ const NavBar = () =>{
         </div>
       {isOpen && (
         <div className="sm:hidden ">
-          <div className=" flex flex-col justify-center items-center pt-2 pb-4 space-y-4 font-righteous h-3/4">
+          <div className=" flex flex-col items-center  pt-2 pb-4 space-y-4 text-xl font-righteous h-screen">
             <NavLink 
               to="/home"  
               onClick={(e) => { scrollToSection('home');}}
@@ -117,7 +117,7 @@ const NavBar = () =>{
             </NavLink>
             <NavLink 
               to="/plans" 
-              className={({isActive})=>` ${isActive?"text-red-500":"text-green-500"} block hover:text-red-500`}>
+              className={({isActive})=>` ${isActive?"text-red-500":"text-white"} block hover:text-red-500`}>
               Membership Plans
             </NavLink>
           </div>

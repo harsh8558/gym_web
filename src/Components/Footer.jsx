@@ -33,7 +33,7 @@ const Footer = () => {
             <div className="space-y-3">
               <p className="flex items-center gap-2">
                 <FaMapMarkerAlt className="text-red-500 text-3xl" />
-                <span>S.B, plaza Bala ganj, Jal Nigam Rd, near city convent inter College, Thakurganj, Balaganj, Lucknow, Uttar Pradesh 226003y</span>
+                <span>S.B, plaza Bala ganj, Jal Nigam Rd, near city convent inter College, Thakurganj, Balaganj, Lucknow, Uttar Pradesh 226003</span>
               </p>
               <p className="flex items-center gap-2">
                 <FaPhone className="text-red-500 " />
