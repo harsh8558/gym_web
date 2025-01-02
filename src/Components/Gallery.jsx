@@ -18,12 +18,12 @@ const Gallery = ()=>{
         />
       </div>
       <div className="relative  ">
-        <div className="flex justify-center items-center pt-8 pb-8 bg-lime-300/35 backdrop-blur-sm text-white text-3xl">
-        30% OFF
+        <div className="flex justify-center items-center pt-8 pb-8 bg-gray-700/80 backdrop-blur-lg text-white text-3xl">
+        <h1>Gallery</h1>
         </div>
           <SlidingGallery/>
-        <div className="flex justify-center items-center pt-8 pb-8 bg-zinc-300/40">
-        30% OFF
+        <div className="flex justify-center items-center pt-8 pb-8 bg-gray-700/80 backdrop-blur-lg">
+        
         </div>
       </div>
     </div>
