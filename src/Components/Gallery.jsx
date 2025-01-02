@@ -1,3 +1,5 @@
+import SlidingGallery from "./SlidingGallery";
+
 const Gallery = ()=>{
   return(<>
     <div id="gallery" className="h-full">
@@ -19,7 +21,7 @@ const Gallery = ()=>{
         <div className="flex justify-center items-center pt-8 pb-8 bg-lime-300/35 backdrop-blur-sm text-white text-3xl">
         30% OFF
         </div>
-        <p className="bg-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis, velit odio nam, officiis corporis earum voluptates inventore expedita magnam repellendus provident quas. Est in quam, sit delectus cumque possimus vitae voluptas veniam! Dolor iusto odit minus facilis vero perferendis in minima alias quibusdam! Corrupti optio ut non in illum ducimus tempore doloremque repellendus hic, dolores ea molestias illo esse assumenda, dignissimos voluptas suscipit delectus debitis doloribus! Animi magni dolore saepe aliquid veniam quam, accusamus voluptas labore, deserunt explicabo est. Minima, cum rerum. Itaque</p>
+          <SlidingGallery/>
         <div className="flex justify-center items-center pt-8 pb-8 bg-zinc-300/40">
         30% OFF
         </div>

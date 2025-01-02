@@ -3,7 +3,7 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'; 
 const WhatsappBtn = ()=>{
   return(<>
-    <div className="fixed z-10 bottom-4 right-4">
+    <div className="fixed z-50 bottom-4 right-4">
       <a
         href="https://wa.me/919219353574?text=Hi%20there!%20I%20need%20help%20with%20your%20services."
         target="_blank"
@@ -13,7 +13,7 @@ const WhatsappBtn = ()=>{
         <FontAwesomeIcon icon={faWhatsapp} className='text-3xl'/>
       </a>
     </div>
-    <div className="fixed z-10 bottom-4 left-4">
+    <div className="fixed z-50 bottom-4 left-4">
       <a
         href="https://www.instagram.com/energyfitnesslucknow?igsh=YXp6bTNpYjNjazFn"
         target="_blank"
