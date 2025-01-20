@@ -6,7 +6,7 @@ const Gallery = ()=>{
       <div className="sticky flex flex-col justify-center items-center gap-4  top-16 h-full bg-black ">
         <div className="flex flex-col items-center pt-2 pb-4 text-zinc-300 font-righteous">
           <h1 className="text-4xl text-yellow-200">Take a virtual Tour</h1>
-          <p>Dicrover your new Fitness</p>
+          <p>Discover your new Fitness</p>
         </div>
         <video
         className="px-4 object-cover h-96 w-11/12 md:w-11/12"
