@@ -37,6 +37,7 @@ const Onlogo = () => {
                         <img
                           ref={imageRef}
                           src="https://res.cloudinary.com/dxmu1ohyk/image/upload/f_auto,q_auto/v1/gym_web/e89ubjwy0toalapezfmi"
+                          loading="lazy"
                           // className={`transition-all duration-500 ease-in-out object-contain
                           //     ${isExpanded 
                           //         ? 'w-full h-1/2 rounded-none object-contain' 

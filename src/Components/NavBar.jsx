@@ -39,7 +39,8 @@ const NavBar = () =>{
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <img 
-              src="https://res.cloudinary.com/dxmu1ohyk/image/upload/f_auto,q_auto/v1/gym_web/tg5jgaqux1zezwel89ha" 
+              src="https://res.cloudinary.com/dxmu1ohyk/image/upload/f_auto,q_auto/v1/gym_web/tg5jgaqux1zezwel89ha"
+              loading="lazy" 
               className={`w-auto h-16 p-2 md:p-0.5 ${isOpen?"md:hidden":""}`} 
               data-aos="fade-left"/>
             <div className="sm:hidden">
@@ -73,18 +74,35 @@ const NavBar = () =>{
               </button>
             </div>
             <div className="hidden sm:flex space-x-10 ">
-                <a href="#home" className="text-gray-300 hover:text-red-500 hover:underline hover:scale-105 transition duration-200">
-                  Home
-                </a>
-                <a href="#about" className="text-gray-300 hover:text-red-500 hover:underline hover:scale-105 transition duration-200">
-                  About
-                </a>
-                <a href="#services" className="text-gray-300 hover:text-red-500 hover:underline hover:scale-105 transition duration-200">
-                  Services
-                </a>
-                <a href="#contact" className="text-gray-300 hover:text-red-500 hover:underline hover:scale-105 transition duration-200">
-                  Contact
-                </a>
+            <NavLink 
+              to="/home"  
+              onClick={(e) => { scrollToSection('home');}}
+              className={({isActive})=>` ${isActive && window.location.pathname==='/home'  ?"text-red-500 font-extrabold":"text-white"} block  hover:text-red-500`}>
+              Home
+            </NavLink>
+            <NavLink 
+              to="/about" 
+              onClick={() => scrollToSection('about')}
+              className={({isActive})=>` ${isActive && window.location.pathname==='/about'  ?"text-red-500 font-extrabold":"text-white"} block hover:text-red-500`}>
+              About
+            </NavLink>
+            <NavLink 
+              to="/facilities" 
+              onClick={() => scrollToSection('facilities')}
+              className={({isActive})=>` ${isActive && window.location.pathname==='/facilities'?"text-red-500 font-extrabold":"text-white"} block hover:text-red-500`}>
+              Facilities
+            </NavLink>
+            <NavLink 
+              to="/gallery" 
+              onClick={() => scrollToSection('gallery')}
+              className={({isActive})=>` ${isActive && window.location.pathname==='/gallery'?"text-red-500 font-extrabold":"text-white"} block hover:text-red-500`}>
+              Gallery
+            </NavLink>
+            <NavLink 
+              to="/plans" 
+              className={({isActive})=>` ${isActive?"text-red-500":"text-white"} block hover:text-red-500`}>
+              Membership Plans
+            </NavLink>
             </div>
           </div>
         </div>

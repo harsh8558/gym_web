@@ -4,6 +4,7 @@ import Facilities from "./Facilities";
 import Gallery from "./Gallery";
 import Onlogo from "./Onlogo";
 import Footer from "./Footer";
+import Footer1 from "./Footer1";
 const Content =()=>{
   return(<>
     <Home/>
@@ -11,7 +12,8 @@ const Content =()=>{
     <Facilities/>
     <Gallery/>
     {/* <Onlogo/> */}
-    <Footer/>
+    {/* <Footer/> */}
+    <Footer1/>
     {/* <div className=" relative h-screen bg-white"></div> */}
   </>)
 }

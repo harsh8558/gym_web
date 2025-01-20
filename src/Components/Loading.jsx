@@ -8,6 +8,7 @@ const Loading = () => {
         <img
           src="https://res.cloudinary.com/dxmu1ohyk/image/upload/f_auto,q_auto/v1/gym_web/e89ubjwy0toalapezfmi"
           alt="Loading"
+          loading="lazy"
           className="relative w-28 h-28 animate-pulse-shadow"
         />
       </div>

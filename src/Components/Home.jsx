@@ -6,12 +6,15 @@ const Home = ()=>{
     <div id="home" className="sticky top-0 left-0 w-full h-screen">
       <video
         className="absolute  top-0 left-0 w-full h-full object-cover  "
-        src="https://res.cloudinary.com/dxmu1ohyk/video/upload/f_auto:video,q_auto/v1/gym_web/jkzb7pbyxti3i2nqkzuq"
+        src="https://res.cloudinary.com/dxmu1ohyk/video/upload/v1737358500/gym_web/meaeqcsg9xbn6se812nh.mov"
+        // https://res.cloudinary.com/dxmu1ohyk/video/upload/f_auto:video,q_auto/v1/gym_web/jkzb7pbyxti3i2nqkzuq
         autoPlay
         loop
         muted
         playsInline
-        style={{ filter: 'brightness(1.7) contrast(1.2)' }}
+        loading="lazy"
+        // style={{ filter: 'brightness(0.7) contrast(0.5)' }}
+        style={{ filter: 'brightness(0.7) contrast(0.5)' }}
       />
 
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-black via-transparent to-black opacity-80" />

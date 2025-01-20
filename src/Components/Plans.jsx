@@ -22,7 +22,7 @@ const Plans = ()=>{
     <div className=" p-6 text-black font-righteous">
       <h1 className="text-3xl text-yellow-200 ">Find the Perfect Membership for You</h1>
       <p className="font-thin text-gray-200 pt-4 pb-4">Choose the plan that suits your fitness journey!</p>
-      <div className="flex flex-col justify-center items-center gap-8">
+      <div className="flex flex-col md:grid md:grid-cols-4 justify-center items-center gap-8">
         {/* Card */}
         <PlansCard time='12' price='12,000'/>
         <PlansCard time='6' price='7,500'/>
